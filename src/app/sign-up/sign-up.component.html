@@ -1,0 +1,84 @@
+<ion-content padding class="background">
+  <div class="center-container">
+    <div class="sign-up-card">
+      <ion-card-header class="text-center">
+        <h2>Sign Up</h2>
+        <p style>Sign up to E-Learning</p>
+      </ion-card-header>
+      <ion-card-content style="margin-top: 20PX;">
+        <form (ngSubmit)="onSignUpSubmit(model)">
+          <mat-form-field appearance="outline" style="width: 100%; " class="mat-form-field-small">
+            <input
+              matInput
+              type="text"
+              placeholder="Name"
+              [(ngModel)]="model.name"
+              name="name"
+              required
+            />
+          </mat-form-field>
+        
+          <mat-form-field appearance="outline" style="width: 100%; " class="mat-form-field-small">
+            <input
+              matInput
+              type="email"
+              placeholder="Email Address"
+              [(ngModel)]="model.email"
+              name="email"
+              required
+            />
+          </mat-form-field>
+        
+          <mat-form-field appearance="outline" style="width: 100%; " class="mat-form-field-small">
+            <input
+              matInput
+              type="text"
+              placeholder="Mobile Number"
+              [(ngModel)]="model.mobile"
+              name="mobile"
+              required
+            />
+          </mat-form-field>
+        
+          <mat-form-field appearance="outline" style="width: 100%; " class="mat-form-field-small">
+            <input
+              matInput
+              type="text"
+              placeholder="Username"
+              [(ngModel)]="model.username"
+              name="username"
+              required
+            />
+          </mat-form-field>
+        
+          <mat-form-field appearance="outline" style="width: 100%; " class="mat-form-field-small">
+            <input
+              matInput
+              type="password"
+              placeholder="Password"
+              [(ngModel)]="model.password"
+              name="password"
+              required
+            />
+          </mat-form-field>
+        
+          <mat-form-field appearance="outline" style="width: 100%; margin-bottom: 0.5em;" class="mat-form-field-small">
+            <input
+              matInput
+              type="password"
+              placeholder="Confirm Password"
+              [(ngModel)]="model.confirmPassword"
+              name="confirmPassword"
+              required
+            />
+          </mat-form-field>
+        
+          <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+        </form>        
+        <div class="text-center mt-3">
+          <p>Already have an account? <a routerLink="/login">Log in</a></p>
+        </div>
+      </ion-card-content>
+    </div>
+  </div>
+</ion-content>

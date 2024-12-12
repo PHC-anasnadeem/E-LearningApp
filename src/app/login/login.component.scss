@@ -1,0 +1,162 @@
+ion-content.background {
+  --background: url('../../assets/images/background.jpg')  no-repeat 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+
+.login-card {
+ 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.login-header h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.login-header p {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.google {
+  background-color: #db4437;
+  color: white;
+}
+
+.apple {
+  background-color: #333;
+  color: white;
+}
+
+.google:hover {
+  background-color: #c33327;
+}
+
+.apple:hover {
+  background-color: #222;
+}
+
+.divider {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.custom-field .mat-form-field-outline {
+  color: white; 
+  border-color: white; 
+}
+
+.custom-field .mat-form-field-outline-start,
+.custom-field .mat-form-field-outline-end {
+  border-color: white;
+}
+
+.custom-field input::placeholder {
+  color: white; 
+  opacity: 1; 
+}
+
+.custom-field .mat-input-element {
+  color: white; 
+}
+
+
+.actions {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.actions a {
+  color: #4DA674;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  --background: #4DA674;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.signup-link p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.signup-link a {
+  color: #4DA674;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

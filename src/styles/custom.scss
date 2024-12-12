@@ -1,0 +1,138 @@
+@import './custom/mixins';
+@import './custom/material';
+@import './custom/table';
+
+.float-right{
+    float:right;
+}
+.float-left {
+  float: left;
+}
+.pull-left{
+    float:left;
+
+}
+.pull-right {
+  float: right;
+}
+.mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
+    height:auto !important;
+}
+.f-right{
+    float:right;
+}
+.angular-editor-textarea{
+    min-height:250px !important;
+}
+.panel-heading2{
+    /*padding-top:25px !important;*/
+}
+.margin-top-40px-ve{
+    margin-top:-40px !important;
+}
+.font-size-25px{
+    font-size:25px !important;
+}
+.font-size-20px {
+  font-size: 20px !important;
+}
+.center{
+    text-align:center !important;
+}
+
+
+
+.check-list .dx-scrollable-content {
+  column-count: 2;
+  -moz-column-count: 2;
+}
+
+.check-list .dx-list-item {
+  border-top: none;
+  break-inside: avoid;
+}
+
+.check-list .dx-list-item:last-of-type {
+  border: none;
+}
+
+.check-list .dx-list .dx-empty-message, .check-list .dx-list-item {
+  border-top: none !important;
+}
+.mat-dialog-content {
+  max-height: unset !important;
+
+    min-height: 400px !important;
+  }
+.dx-datagrid-header-panel {
+  background-color: #206fe4 !important;
+ 
+}
+.dx-datagrid-header-panel .dx-toolbar .dx-toolbar-items-container .dx-toolbar-after .dx-toolbar-button .dx-toolbar-item-content .dx-button .dx-button-content .dx-icon{
+    color:white !important;
+}
+.dx-datagrid-header-panel .dx-toolbar .dx-toolbar-items-container .dx-toolbar-after .dx-toolbar-item .dx-toolbar-item-content .dx-texteditor.dx-editor-underlined {
+  background-color: white !important;
+}
+.dx-datagrid-header-panel .dx-toolbar .dx-toolbar-items-container .dx-toolbar-after .dx-toolbar-button .dx-toolbar-item-content .dx-datagrid-export-button {
+  background-color: transparent !important;
+}
+.dx-datagrid-header-panel .dx-toolbar .dx-toolbar-items-container {
+  height: 35px !important;
+}
+/*.dx-toolbar-button .dx-toolbar-item-content .dx-button-mode-text .dx-icon,.dx-toolbar-button .dx-toolbar-item-content .dx-button-mode-text .dx-button-text {
+  color: white
+}
+*/
+.dx-toolbar-before .dx-toolbar-button .dx-toolbar-item-content .dx-button-has-text {
+  background-color: white;
+  margin-bottom:5px;
+}
+.dx-toolbar-before .dx-toolbar-button .dx-toolbar-item-content .dx-button-has-text {
+  background-color: white;
+  margin-bottom: 5px;
+}
+.dx-datagrid-header-panel .dx-toolbar .dx-toolbar-items-container{
+    color:white !important;
+}
+.dx-toolbar-item .dx-toolbar-item-content .dx-button-danger{
+    color:white !important;
+    background-color:red !important;
+}
+.dx-toolbar-item .dx-toolbar-item-content .dx-button-primary {
+  color: white !important;
+  background-color:darkgreen !important;
+}
+.dx-tag-container{
+    padding-bottom:5px;
+    border-bottom:solid 1px gray;
+}
+.place-holder-btn {
+  position: absolute !important;
+  right: 0px !important;
+  bottom: 5px !important;
+}
+.place-holder-checkbox {
+  position: absolute !important;
+  right: 0px !important;
+}
+.drop-down-checkbox {
+  position: absolute !important;
+  bottom: 15px !important;
+  right: 15px !important;
+}
+.width-92-pr{
+    width:92% !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.red{
+    color:red !important;
+}
+.panel-black-arrow .mat-expansion-panel-header .mat-expansion-indicator::after {
+  color: black !important;
+}
+.bold{
+    font-weight:bold !important;
+}
